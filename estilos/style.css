@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    height: 100vh;
+    background-image: linear-gradient(
+     to bottom,
+     rgba(0,0,0,0.8) 0%,
+     rgba(0,0,0,0.2) 20%,
+     rgba(20,20,20,0.2) 80%,
+     rgba(20,20,20,1) 100%,
+     );
+     background-image: url(../imagen/fondo1.jpg);
+    background-size:cover;
+    padding: 0.26rem 0.75rem 0 0.75rem;
+}
